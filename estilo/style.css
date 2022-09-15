@@ -206,15 +206,25 @@ footer a:hover {
 
 form {
     background-color: var(--cor1);
-    padding: 0px 150px 0px 150px;
+    padding: 0px 100px 0px 100px;
 }
 
 form > span {
-    margin-left: 5px;
-    
+   width: 20%;
 }
 
 form > span > input {
-    width: 500px;
-    text-align: center;
+    width: 80%;
+   
+}
+
+.label {
+    background-color: red;
+    width: 200px;
+    float: left;
+}
+
+.inputa {
+    background-color: green;
+    width: 200px;
 }
